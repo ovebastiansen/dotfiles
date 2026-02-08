@@ -6,4 +6,5 @@
 
 {{ else if eq .chezmoi.os "windows" -}}
 *.sh
+vsconfig/*
 {{ end -}}
