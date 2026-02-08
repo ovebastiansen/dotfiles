@@ -1,3 +1,4 @@
+vsconfig
 {{ if eq .chezmoi.os "linux" -}}
 *.ps1
 
@@ -6,5 +7,5 @@
 
 {{ else if eq .chezmoi.os "windows" -}}
 *.sh
-vsconfig/*
+
 {{ end -}}

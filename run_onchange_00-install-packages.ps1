@@ -1,3 +1,8 @@
 winget install --id Microsoft.PowerShell.Preview --source winget
-winget install JanDeDobbeleer.OhMyPosh --source winget
-oh-my-posh font install meslo
+winget install --id JanDeDobbeleer.OhMyPosh --source winget
+winget install --id Discord.Discord --source winget
+winget install --id Microsoft.VisualStudioCode.Insiders --source winget
+winget install -e --id Kubernetes.kubectl --source winget
+winget install --id Helm.Helm --source winget
+winget install --id Derailed.k9s --source winget
+winget install --id Axosoft.GitKraken --source winget
