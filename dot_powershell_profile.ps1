@@ -17,7 +17,7 @@ set-alias desktop "Desktop.ps1"
 #Set-Theme ParadoxGlucose
 #Set-PoshPrompt -theme "D:\Dropbox\poshv3.json"
 
-oh-my-posh --init --shell pwsh --config c:/source/ohmyposhv3-v2.json | Invoke-Expression
+oh-my-posh --init --shell pwsh --config ~/ohmyposhv3-v2.json | Invoke-Expression
 [Console]::OutputEncoding = [Text.Encoding]::UTF8
 
 Set-PSReadLineOption -PredictionSource History
