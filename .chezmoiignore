@@ -1,0 +1,9 @@
+{{ if eq .chezmoi.os "linux" -}}
+*.ps1
+
+{{ else if eq .chezmoi.os "darwin" -}}
+*.ps1
+
+{{ else if eq .chezmoi.os "windows" -}}
+*.sh
+{{ end -}}
