@@ -1,15 +1,21 @@
 [user]
-	name = Ove Bastiansen
-	email = ove.bastiansen@stortinget.no
+    name = Ove Bastiansen
+    email = ovebastiansen@outlook.com
+[includeIf "gitdir/i:~/repos/hurtigruten/"]
+    path = ~/.gitconfig-hurtigruten
+[includeIf "gitdir/i:d:/hurtigruten/"]
+    path = ~/.gitconfig-hurtigruten
+[includeIf "gitdir/i:c:/source/"]
+    path = ~/.gitconfig-stortinget
 [core]
-	editor = \"C:\\Users\\OVEBA\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin\\code-insiders\" --wait
-	longpaths = true
+    editor = code-insiders --wait
+    longpaths = true
 [alias]
-	co = checkout
-	br = branch
-	ci = commit
-	st = status
+    co = checkout
+    br = branch
+    ci = commit
+    st = status
 [push]
-	autoSetupRemote = true
+    autoSetupRemote = true
 [remote "origin"]
-	prune = true
+    prune = true
