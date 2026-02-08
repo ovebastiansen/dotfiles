@@ -6,3 +6,4 @@ winget install -e --id Kubernetes.kubectl --source winget
 winget install --id Helm.Helm --source winget
 winget install --id Derailed.k9s --source winget
 winget install --id Axosoft.GitKraken --source winget
+winget install --id Microsoft.PowerToys --source winget

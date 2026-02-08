@@ -1,12 +1,12 @@
 if ($PSVersionTable.PSEdition -eq 'Desktop') {
     Write-Host "starting again in pwsh"
-    $args = @(
+    $myArgs = @(
         '-NoProfile'
         '-File'
         $MyInvocation.MyCommand.Path
     ) + $MyInvocation.UnboundArguments
 
-    $output = & pwsh.exe @args
+    $output = & pwsh.exe @myArgs
     $output | Out-Host
     exit
 }
