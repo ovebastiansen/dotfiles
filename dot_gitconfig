@@ -1,0 +1,15 @@
+[user]
+	name = Ove Bastiansen
+	email = ove.bastiansen@stortinget.no
+[core]
+	editor = \"C:\\Users\\OVEBA\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin\\code-insiders\" --wait
+	longpaths = true
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+[push]
+	autoSetupRemote = true
+[remote "origin"]
+	prune = true
